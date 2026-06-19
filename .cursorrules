@@ -1,0 +1,13 @@
+You are building Bedrock, an arXiv citation graph explorer.
+
+Stack: FastAPI (Python 3.11) + Next.js 14 App Router + TypeScript + Tailwind CSS + D3.js + SQLite/SQLAlchemy (async).
+
+Rules:
+- Never rewrite files that weren't asked about
+- Minimal diffs only — don't touch working code
+- Async SQLAlchemy patterns throughout (aiosqlite)
+- All frontend API calls go to http://localhost:8000
+- Never add dependencies not already in requirements.txt / package.json
+- DB file lives at backend/db/bedrock.db (gitignored)
+- If something is unclear, ask before writing
+- After each prompt, do not move on — wait for confirmation
