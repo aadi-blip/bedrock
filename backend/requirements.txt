@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+aiosqlite
+feedparser
+httpx
+anthropic
+python-dotenv
+pypdf
